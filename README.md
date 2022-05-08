@@ -28,26 +28,13 @@
 
 ## 📚 학습 주제
 
-- [CS Study](#cs-study)
-  - [👨‍💻  스터디원](#--스터디원)
-  - [📝 스터디 규칙](#-스터디-규칙)
-  - [📚 학습 주제](#-학습-주제)
-  - [- ### 🗂 딥러닝](#----딥러닝)
-  - [Operating System](#operating-system)
-    - [🗂 운영체제](#-운영체제)
-  - [- CPU 스케줄링 - RTA algorithm for RM, TFP와 JFP](#--cpu-스케줄링---rta-algorithm-for-rm-tfp와-jfp)
-  - [Database](#database)
-    - [🗂 데이터베이스](#-데이터베이스)
-  - [Network](#network)
-    - [🗂 네트워크](#-네트워크)
-  - [Language](#language)
-    - [🗂 프로그래밍 언어](#-프로그래밍-언어)
-  - [Data Structure](#data-structure)
-    - [🗂 자료구조](#-자료구조)
-  - [Algorithm](#algorithm)
-    - [🗂 알고리즘](#-알고리즘)
-  - [DeepLearning](#deeplearning)
-  - [### 🗂 딥러닝](#--딥러닝)
+- [Operating System](#operating-system)
+- [Database](#database)
+- [Network](#network)
+- [Language](#language)
+- [Data Structure](#data-structure)
+- [Algorithm](#algorithm)
+- [Deep Learning](#deeplearning)
 ---
 ## Operating System
 ### [🗂 운영체제](./contents/operating-system)
@@ -66,7 +53,7 @@
 
 ## Language
 ### [🗂 프로그래밍 언어](./contents/language)
-- Framework와 Library
+- 프레임워크와 라이브러리
 
 ---
 
