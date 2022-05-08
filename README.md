@@ -68,4 +68,5 @@
 
 ## DeepLearning
 ### [🗂 딥러닝](./contents/deeplearning)
+- Deep Learning First - MachineLearning Process
 ---
