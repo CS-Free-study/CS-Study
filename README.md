@@ -38,7 +38,7 @@
 ---
 ## Operating System
 ### [🗂 운영체제](./contents/operating-system)
-
+- CPU 스케줄링 - RTA algorithm for RM, TFP와 JFP
 ---
 
 ## Database
@@ -47,8 +47,8 @@
 ---
 
 ## Network
-### [🗂 데이터베이스](./contents/network)
-  - API
+### [🗂 네트워크](./contents/network)
+
 ---
 
 ## Language
@@ -64,12 +64,8 @@
 ## Algorithm
 ### [🗂 알고리즘](./contents/algorithm)
 
+---
+
 ## DeepLearning
 ### [🗂 딥러닝](./contents/deeplearning)
 ---
-
-
-<!-- ### 📆 일정
-| 날짜       | 나현         | 민정        | 종혁     |
-|----------|------------|-----------|-----------|
-| 22.05.10 |             |           |              | -->
