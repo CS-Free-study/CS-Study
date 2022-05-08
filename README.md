@@ -34,6 +34,7 @@
 - [Language](#language)
 - [Data Structure](#data-structure)
 - [Algorithm](#algorithm)
+- [Deep Learning](#deeplearning)
 ---
 ## Operating System
 ### [🗂 운영체제](./contents/operating-system)
@@ -63,6 +64,8 @@
 ## Algorithm
 ### [🗂 알고리즘](./contents/algorithm)
 
+## DeepLearning
+### [🗂 딥러닝](./contents/deeplearning)
 ---
 
 
