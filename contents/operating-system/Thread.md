@@ -15,7 +15,7 @@
 
 ***PCB***
 
-<img src = "pcb.png" width="200" height="300">
+<img src = "contents/operating-system/images/Thread/images-jaypyon-post-07fba9e1-fa48-4d40-a3d8-203264539b70-image.png" width="200" height="300">
 
 스레드는 pc,register를 별도로 가집니다.  
 
