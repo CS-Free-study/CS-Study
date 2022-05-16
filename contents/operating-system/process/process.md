@@ -2,8 +2,7 @@
 
 > 프로세스는 실행중인 프로그램이다.
 
-<img src="images\processMap.PNG" width="500"/>   
-
+<img src=".\images\processMap.PNG" width="500"/> 
 
 ## 프로세스의 문맥(context)
 > cpu 수행 상태를 나타내는 하드웨어 문맥
@@ -39,7 +38,7 @@
 
 
 
-<img src="images\processState.PNG" width="700"/>   
+<img src=".\images\processState.PNG" width="700"/>   
 
 
 
@@ -56,7 +55,7 @@
 >   - oPen file descriptors 등 
 
 
-<img src="images\pcb.PNG" width="400"/>   
+<img src=".\images\pcb.PNG" width="400"/>   
 
 
 ### ***PCB는 context switch이 이루어졌을 때 기존에 실행하던 process의 정보를 불러오기 위해 필요하다***
@@ -70,7 +69,8 @@
 > * 2: 새롭게 실행할 프로세스의 PCB를 읽어온다
  
 
-<img src="images\contextswitch.PNG" width="700"/>   
+<img src=".\images\contextswitch.PNG" width="700"/>   
+
 
 
 ### `system call이나 interrupt 발생시 반드시 context switch가 일어나는 것은 아니다`
@@ -98,7 +98,7 @@
 
 
 
-<img src="images\processScheduling.PNG" width="700"/>   
+<img src=".\images\processScheduling.PNG" width="700"/>   
 
 
 ## 스케줄러
@@ -140,4 +140,4 @@
 ### 4. 힙 영역과 스택 영역의 차이점은 무엇인가요? 
 
 
-<img src="images\memory.PNG" width="400"/>   
+<img src=".\images\memory.PNG" width="400"/>   
