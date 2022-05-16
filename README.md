@@ -41,10 +41,11 @@
 ---
 ## Operating System
 ### [🗂 운영체제](./contents/operating-system)
-- CPU 스케줄링 - RTA algorithm for RM, TFP와 JFP
-- DeadLock
+- CPU 스케줄링 
+    - [RTA algorithm for RM, TFP와 JFP](./contents/operating-system/CPUScheduling/RTA%20for%20RM.md)
+- [Deadlock](./contents/operating-system/Deadlock.md)
 - [Thread](./contents/operating-system/Thread.md)
-- [Process](./contents/operating-system/process/process.md)
+- [Process](./contents/operating-system/Process.md)
 ---
 
 ## Database
