@@ -142,6 +142,6 @@
 
  <img src=".\images\memory.PNG" width="400"/>  
 
-<img src="https://github.com/jonghyeok98/CS-Study/blob/main/contents/operating-system/process/images/memory.png?raw=true" width="400"/>   
+
 
 
