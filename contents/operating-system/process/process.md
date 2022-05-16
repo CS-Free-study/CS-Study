@@ -2,7 +2,7 @@
 
 > 프로세스는 실행중인 프로그램이다.
 
-<img src="contents\operating-system\process\images\processMap.PNG" width="500"/>   
+<img src="images\processMap.PNG" width="500"/>   
 
 
 ## 프로세스의 문맥(context)
@@ -39,7 +39,7 @@
 
 
 
-<img src="images\processState.PNG" width="700"/>   
+<img src="process\images\processState.PNG" width="700"/>   
 
 
 
@@ -70,7 +70,7 @@
 > * 2: 새롭게 실행할 프로세스의 PCB를 읽어온다
  
 
-<img src="contents\operating-system\process\images\contextswitch.PNG" width="700"/>   
+<img src="images\contextswitch.PNG" width="700"/>   
 
 
 
