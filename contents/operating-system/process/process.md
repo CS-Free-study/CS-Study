@@ -140,7 +140,7 @@
 
 
 
- <img src=".\images\memory.PNG" width="400"/>  
+ <img src=".\images\memory.png" width="400"/>  
 
 
 
