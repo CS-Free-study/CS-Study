@@ -131,6 +131,7 @@
 
 
 
+
 # 면접 대비 
 ### 1. 프로세스와 스레드의 차이점은 무엇인가요 ? 
 ### 2. 멀티 프로세스 대신 멀티 스레드를 사용하는 이유는 무엇인가요?
@@ -139,5 +140,8 @@
 
 
 
+ <img src=".\images\memory.PNG" width="400"/>  
 
 <img src="https://github.com/jonghyeok98/CS-Study/blob/main/contents/operating-system/process/images/memory.png?raw=true" width="400"/>   
+
+
