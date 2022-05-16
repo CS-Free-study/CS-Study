@@ -129,6 +129,7 @@
 
 
 
+<img src=".\images\memory.PNG" width="400"/>   
 
 
 
@@ -140,4 +141,7 @@
 ### 4. 힙 영역과 스택 영역의 차이점은 무엇인가요? 
 
 
-<img src=".\images\memory.PNG" width="400"/>   
+
+
+
+
