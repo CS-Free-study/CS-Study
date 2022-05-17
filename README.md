@@ -1,6 +1,5 @@
 # CS Study
 > Since 2022.05.04
-
 ## 👨‍💻  스터디원
 <p>
 <a href="https://github.com/nahyeon99">
@@ -11,6 +10,9 @@
 </a>
 <a href="https://github.com/jonghyeok98">
   <img src="https://avatars.githubusercontent.com/u/77715064?v=4" width="100">
+</a>
+<a href="https://github.com/vhzkclq0705">
+  <img src="https://avatars.githubusercontent.com/u/75382687?v=4" width="100">
 </a>
 </p>
 
@@ -41,8 +43,8 @@
 ---
 ## Operating System
 ### [🗂 운영체제](./contents/operating-system)
-- CPU 스케줄링 
-    - [RTA algorithm for RM, TFP와 JFP](./contents/operating-system/CPUScheduling/RTA%20for%20RM.md)
+- CPU 스케줄링
+  - [RTA algorithm for RM, TFP와 JFP](./contents/operating-system/CPUScheduling/RTA%20for%20RM.md)
 - [Deadlock](./contents/operating-system/Deadlock.md)
 - [Thread](./contents/operating-system/Thread.md)
 - [Process](./contents/operating-system/Process.md)
