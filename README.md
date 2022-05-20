@@ -1,5 +1,11 @@
 # CS Study
 > Since 2022.05.04
+
+## 📣 공지
+- 22.05.24 발표 이후로 기말고사 준비기간으로 종강까지 잠시 break 합니다.
+- 22.06.13 주차부터 다시 update!!
+
+ 
 ## 👨‍💻  스터디원
 <p>
 <a href="https://github.com/nahyeon99">
@@ -10,6 +16,12 @@
 </a>
 <a href="https://github.com/jonghyeok98">
   <img src="https://avatars.githubusercontent.com/u/77715064?v=4" width="100">
+</a>
+<a href="https://github.com/vhzkclq0705">
+  <img src="https://avatars.githubusercontent.com/u/75382687?v=4" width="100">
+</a>
+<a href="https://github.com/mummhy0811">
+  <img src="https://avatars.githubusercontent.com/u/76941500?v=4" width="100">
 </a>
 </p>
 
