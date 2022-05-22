@@ -174,7 +174,6 @@
 
 
 
-
  <img src="./images/Process/memory.png" width="400"/>  
 
 
