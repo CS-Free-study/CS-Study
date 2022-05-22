@@ -24,7 +24,7 @@
 
 - CPU는 매번 프로그램 카운터가 지정하고 있는 주소의 명령을 수행하며, 다음 명령을 수행하기 전에 인터럽트 라인이 세팅되어있는지 확인한다.
 
-<img src="interruptProcess.png">
+<img src="./Image/Interrupt/interruptProcess.png">
 
 1. 인터럽트 요청 발생 
 2. 프로그램 수행 중단 및 정보 보존
@@ -49,7 +49,7 @@ CPU가 수행하는 명령에는 ***일반 명령***과 ***특권 명령***이 �
 
 > I/O 명령은 특권 명령이기 때문에 사용자 모드 프로그램에서는 I/O명령을 처리하지 못한다. 그래서 사용자 프로그램은 커널 함수를 호출하는 system call을 이용한다.
 
-<img src = "interruptSystemcall.png">
+<img src = "./Image/Interrupt/interruptSystemcall.png">
 
 ### 사용자 프로그램의 I/O 과정
 1. 사용자 프로그램이 운영체제에게 시스템 콜을 한다.
