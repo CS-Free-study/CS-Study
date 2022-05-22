@@ -7,6 +7,8 @@
   - RTA for RM
 - Deadlock
 - Thread
+- Cache
+- Interrupt
 ---
 
 
