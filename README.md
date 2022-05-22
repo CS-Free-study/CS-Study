@@ -60,7 +60,7 @@
 - [Cache](./contents/operating-system/Cache.md)
 - [Interrupt](./contents/operating-system/Interrupt.md)
 - [Synchoronous and Asynchronous](./contents/operating-system/Synchoronus%20and%20Asynchronous.md)
-- 
+
 ---
 
 ## Database
