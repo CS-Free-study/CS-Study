@@ -7,20 +7,30 @@
 - 주로 multi-programming 환경에서 한정된 자원을 사용하려고 서로 경쟁하는 상황에서 발생한다.
 - Deadlock == '교착 상태'
 
+cf. multi-programming
+- 컴퓨터에서 여러 작업을 동시에 수행하는 것을 뜻한다.
+- Multiprogramming은 여러 프로그램이 메모리에 올라가 있음을 강조
+
 ---
 
 ## Deadlock 발생의 4가지 조건
+✅ 데드락 발생의 필요조건
+- 아래 4가지 조건이 모두 만족되는 경우 데드락이 발생할 가능성이 있다.
+- 하나라도 만족하지 않으면 절대 발생하지 않는다.
 
 1) Mutual exclusion(상호 배제)
     - 매 순간 하나의 프로세스만이 자원을 사용할 수 있다.
+    - 하나의 process만이 공유자원(shared resource)에 접근할 수 있다.
       <br>
 2) No preemption (비선점)
     - 프로세스는 자원을 스스로 내놓는 것이지 강제로 빼앗기는 것이 아니다.
+    - 프로세스가 task를 마친 후 리소스를 자발적으로 반환할 때까지 기다린다. (강제로 빼앗지 않는다)
       <br>
 3) Hold and wait (보유대기)
 - 자원을 가진 프로세스가 다른 자원을 기다릴 때 보유 자원을 놓지 않고 계속 가지고 있다.
   <br>
 4) Circular wait (순환대기)
+- Hold and wait 관계의 프로세스들이 서로를 기다리는 상태
 - 자원을 기다리는 <strong>프로세스 간에 사이클이 형성</strong>되어 있다.
 - 프로세스 p0, p1, p2, ... , pn 이 있을 때, <br>
   p0은 p1이 가진 자원을 기다리고,<br>
@@ -31,11 +41,16 @@
 ---
 
 ## Deadlock 처리 방법
--> <strong>prevention, 예방</strong> /  <strong>avoidence, 회피</strong>
 
--> <strong>Prevention, Avoidance</strong>가 Deadlock이 발생하지 않도록 미리 예방하는 방법이라면, <br>
--> <strong>Detection and recovery, Ignorance</strong>는 Deadlock의 발생을 일단 냅두는 것.
-
+- 사전에 교착상태가 발생하지 않도록 조치하거나, 발생한 뒤에 고치는 방법이 있다. 대표적으로 아래 세가지로 나눈다.
+- 1.<strong>prevention, 방지</strong>
+  - 사전에 교착상태가 발생하지 않도록 조치
+- 2.<strong>avoidence, 회피</strong>
+  - 리소스 할당의 측면에서, 교착상태가 발생할 가능성이 있는 자원 할당(unsafe allocation)을 하지 않는다.
+    - 대표적으로 `은행원 알고리즘, 자원 할당 그래프`가 있다. 
+- 3.<strong>Detection and Recovery, 탐지 및 회복</strong>
+    - 교착상태가 발생하든 말든 냅두고 교착상태가 발생 할 경우 찾아내어 고친다.
+    
 ### 1. Deadlock Prevention (교착상태 예방)
 - 자원 할당 시 Deadlock의 4가지 필요 조건 중에 어느 하나가 만족되지 않도록 하는 것,
 - 애초부터 Deadlock이 발생하지 않도록.
