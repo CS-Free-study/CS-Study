@@ -57,6 +57,8 @@
 - [Deadlock](./contents/operating-system/Deadlock.md)
 - [Thread](./contents/operating-system/Thread.md)
 - [Process](./contents/operating-system/Process.md)
+- [Cache](./contents/operating-system/Cache.md)
+- [Interrupt](./contents/operating-system/Interrupt.md)
 ---
 
 ## Database
