@@ -5,7 +5,7 @@
 - 22.05.24 발표 이후로 기말고사 준비기간으로 종강까지 잠시 break 합니다.
 - 22.06.13 주차부터 다시 update!!
 
- 
+
 ## 👨‍💻  스터디원
 <p>
 <a href="https://github.com/nahyeon99">
@@ -57,6 +57,10 @@
 - [Deadlock](./contents/operating-system/Deadlock.md)
 - [Thread](./contents/operating-system/Thread.md)
 - [Process](./contents/operating-system/Process.md)
+- [Cache](./contents/operating-system/Cache.md)
+- [Interrupt](./contents/operating-system/Interrupt.md)
+- [Synchoronous and Asynchronous](./contents/operating-system/Synchoronus%20and%20Asynchronous.md)
+
 ---
 
 ## Database
@@ -71,6 +75,14 @@
 
 ## Language
 ### [🗂 프로그래밍 언어](./contents/language)
+  - [Java](./contents/language/Java/Java.md)
+    - 객체지향
+    - 객체지향의 특징 4가지
+    - 객체지향 5대 원칙(OOP SOLID)
+    - String, StringBuilder, StringBuffer 차이점
+    - 접근지정자(Access Modifier)
+    - Java 컴파일 과정
+    - JVM 구조와 Java의 동작방식
 
 ---
 
