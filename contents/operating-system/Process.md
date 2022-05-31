@@ -100,7 +100,6 @@
 > * ex) I/O request
 
 
-
 <img src="./images/Process/processScheduling.png" width="700"/>   
 
 
