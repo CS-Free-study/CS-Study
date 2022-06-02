@@ -56,7 +56,7 @@ Symbolic Address
 > 변수 이름, 함수 이름과 같이 프로그래머가 사용하는 주소   
 > ex) int * a=&n;
 
-<img src="./images/Memory/Address_binding.png" width="700"/>  
+<img src="./images/Memory/Address_binding.PNG" width="700"/>  
 
 
 ### Compile time
@@ -140,7 +140,7 @@ Symbolic Address
 > * `external fragmentation 발생`
 
 
-<img src="./images/Memory/Contiguous_allocation.png" width="800"/>  
+<img src="./images/Memory/Contiguous_allocation.PNG" width="800"/>  
 
 
 ### Dynamic Storage-Allocation Problem
