@@ -22,7 +22,7 @@
 
 ## CPU, I/O Burst Time 
 
-<img src="./images/CpuScheduling/img1.png" />
+<img src="./images/CpuScheduling/img1.png" width="600" />
 
 `프로세스`는 `CPU burst`와 `I/O burst`가 왔다갔다 서로 바뀌면서 프로그램을 실행한다.
 
@@ -37,7 +37,7 @@
 
 ## CPU-burst Time의 분포
 
-<img src="./images/CpuScheduling/img2.png" />
+<img src="./images/CpuScheduling/img2.png" width="600" />
 
 - 여러 job(=process)이 섞여 있기 떄문에 CPU 스케줄링이 필요하다.
     - Interactive job에게 적절한 response 제공 요망
@@ -76,29 +76,29 @@
 <strong>cpu를 쓰러 ready queue에 들어온 프로세스</strong>가 대상이 된다.
 
 - `시스템 입장`에서의 성능 척도 (최대한 일을 많이 시키면 좋은 것)
-    - #####utilization(이용률)
+    - <strong>utilization(이용률)</strong>
         - 전체 시간 중에서 cpu가 놀지 않고 일한 시간의 비율.
         - 전체 시간 중에서 일한 시간의 비율을 높게 하는 것이 시스템 입장에서 cpu를 잘 쓰는 방법
           <br>
-    - #####throughput(처리량)
+    - <strong>throughput(처리량)</strong>
         - 주어진 시간동안에 과연 몇 개의 일을 처리했는가
         - 가능한 많은 일을 처리하면 좋다.
           <br><br>
 - `프로그램(고객) 입장`에서의 성능 척도 (내가 cpu를 얻어서 빨리 끝내면 좋은 것, 시간 관련)
-    - ##### turnaround time(소요시간, 평균시간)
+    - <strong>turnaround time(소요시간, 평균시간)</strong>
         - cpu를 쓰러 들어와서 다 쓰고 나가는데까지 걸리는 전체 시간
         - cpu를 기다리는 시간, 쓰는 시간, 다시 기다리는 시간, 쓰는 시간... 을 전부 합친 시간을 말한다.<br>
-    - ##### waiting time(대기 시간)
+    - <strong>waiting time(대기 시간)</strong>
         - cpu를 쓰고자 순수하게 기다린 시간
         - 특정 프로세스가 실행되면서 반복되는 모든 대기시간을 합친 것을 말한다.<br>
-    - ##### response time(응답 시간) ⭐️
+    - <strong>response time(응답 시간) ⭐️ </strong>
         - cpu를 쓰겠다고 ready queue에 들어와서, 해당 프로세스가 처음으로 cpu를 얻기까지 걸린 시간
         
 <br><br>
 선점형 스케줄링은 cpu를 얻었다고 끝까지 쓰는게 아니라,<br> 
 프로세스가 cpu를 얻으면 한번에 쭉 쓰는 것이 아니라 뺴앗겼다가 다시 얻는 과정을 반복하게 된다.
           
-### Scheduling Algorithms
+## Scheduling Algorithms
 
 - FCFS (First-Come First-Served)
 - SJF (Shortest-Job-First)
@@ -109,20 +109,20 @@
 - Multilevel Feedback Queue
 
 
-### FCFS (First-Come First Served) Scheduling
+## FCFS (First-Come First Served) Scheduling
 
-<img src="./images/CpuScheduling/img3.png" />
+<img src="./images/CpuScheduling/img3.png" width="600" />
 
 - 비선점 스케줄링
 - 먼저 cpu를 요청하는 프로세스에 먼저 cpu가 할당된다.
 - FIFO queue를 사용해 쉽게 구현할 수 있다.
 - 문제점) `convoy effect`: 먼저 들어온 어떤 프로세스의 CPU 처리 시간이 길 경우 다른 모든 프로세스들이 기다림으로써 더 짧은 프로세스가 먼저 진행될 수 있는 경우보다 cpu 및 장비 사용률이 낮아지는 현상
 
-### SJF (Shortest-Job-First) Scheduling
+## SJF (Shortest-Job-First) Scheduling
 
-<img src="./images/CpuScheduling/img4.png" /> <br>
-<img src="./images/CpuScheduling/img5.png" /> <br>
-<img src="./images/CpuScheduling/img6.png" /> <br>
+<img src="./images/CpuScheduling/img4.png" width="600" /> <br>
+<img src="./images/CpuScheduling/img5.png" width="600" /> <br>
+<img src="./images/CpuScheduling/img6.png" width="600" /> <br>
 
 - `비선점 스케줄링 방식` : <br> 
   - cpu burst time이 가장 작은 프로세스에게 먼저 cpu를 할당한다.
@@ -136,7 +136,7 @@
     - `average time` 측면에서 가장 `optimal` 하다.
     - 문제점) `starvation` : cpu 사용시간이 긴 프로세스는 계속해서 cpu를 할당받지 못하는 문제가 발생할 수 있다.
     
-### Priority Scheduling (우선순위 스케줄링)
+## Priority Scheduling (우선순위 스케줄링)
 
 - `preemptive` <br>
     - 더 높은 우선순위 스케줄링이 오면 선점당하는 방식
@@ -149,7 +149,7 @@
 computer system에서 효율성을 중요시하지만 특정 프로세스가 지나치게 차별되는 것을 막아야할 필요가 있다. <br>
   -> aging(노화) 기법 도입, 아무리 우선순위가 낮은 프로그램이라도 오래 기다리면 우선순위를 조금씩 높여주는 기법
   
-### Round Robin (RR)
+## Round Robin (RR)
 
 - 현대적인 컴퓨터 시스템에서 사용하고 있는 스케줄링은 RR에 기반하고 있다.
 - cpu를 줄 떄 그냥 주는 것이 아니라, 할당시간을 세팅해서 넘겨주고 할당 시간이 끝나면 timer interruupt가 걸려서 빼앗기는 것이 전부 round robin을 바탕으로 한 것이다. 이는 모두 선점형(preemptive) scheduling 이다.
@@ -174,7 +174,7 @@ cpu를 짧게 쓰는 프로세스가 빨리 cpu를 쓰고 나갈 수 있게 하�
   그래서 적당한 크기로 지정해주는 것이 좋고, 그 크기가 10-100 millisecond 로 알려져있다.
 
 <br>
-<img src="./images/CpuScheduling/img7.png" />
+<img src="./images/CpuScheduling/img7.png" width="600" />
 
 Time Quantum(할당 시간)이 20인 경우의 RR 예제이다.
 
@@ -191,7 +191,7 @@ RR은 모든 프로세스들이 마지막까지 cpu를 조금씩 제공받으면
   <br><br>
 - 하지만 일반적으로는 짧은 프로세스와 긴 프로세스가 섞여있다.
   <br><br>
-<img src="./images/CpuScheduling/img2.png" />
+<img src="./images/CpuScheduling/img2.png" width="600" />
 
 CPU 스케줄링이 필요한 이유라 하면, <br>
 
@@ -202,9 +202,9 @@ cf.
 Homogeneous : 같은 플랫폼, 같은 종류, 같은 환경
 Heterogenous : 다른 제품, 다른 환경, 다른 종류 (클라우드 환경에서는 서로 다른 환경을 Heterogenous 라고 표현)
 
-### Multilevel Queue
+## Multilevel Queue
 
-<img src="./images/CpuScheduling/img8.png" />
+<img src="./images/CpuScheduling/img8.png" width="600" />
 
 - ready queue에 cpu를 기다리는 줄은 여러 줄로 줄서기를 한다.
 - 맨 윗 즐이 우선순위가 높은 줄이고, 아래로 갈 수록 우선순위가 낮아진다.
@@ -215,7 +215,7 @@ cf. batch processes: cpu만 오래 사용하는 그런 job들
   <br><br>
 - 즉, cpu는 가장 높은 계급을 갖고 있는 프로세스 차례가 오고, 윗 줄의 프로세스가 없다면 아랫 줄의 프로세스에게 cpu를 주는 스케줄링 방식이다.
   <br><br>
-<img src="./images/CpuScheduling/img9.png" />
+<img src="./images/CpuScheduling/img9.png" width="600" />
   <br><br>
 - ready queue를 여러 줄로 줄 세우기를 한다고 했는데, 여기선 queue가 두 개이다.
   <br><br>
@@ -233,9 +233,10 @@ background job은 cpu만 오랫동안 사용하는 프로세스들이고 응답�
   <br><br>
 - RR은 공정한 스케줄링이라면 Multilevel은 상대적으로 차별이 존재하는 스케줄링 방식이다.
   <br><br>
-### Multilevel Feedback Queue
+  
+## Multilevel Feedback Queue
 
-<img src="./images/CpuScheduling/img10.png" />
+<img src="./images/CpuScheduling/img10.png" width="600" />
 
 - 큐를 몇 개 둘 것인가
 - 각 큐에선 어떤 스케줄링을 사용할 것인지
@@ -245,7 +246,7 @@ background job은 cpu만 오랫동안 사용하는 프로세스들이고 응답�
 
 이런 식으로 여러 기준이 정해져야 할 것이다.
 
-### Multilevel Queue vs Multilevel Feedback queue
+## Multilevel Queue vs Multilevel Feedback queue
 
 - `Multilevel queue`는 각각 프로세스의 중요도에 따라 queue로 나누고 각 queue에서 다른 알고리즘을 적용해 효율을 높일 수 있다는 장점이 있다.<br>
 단점은 한 번 해당 큐에 들어가면 프로세스는 다른 큐로 이동되거나 변경되는 것이 거의 불가능하다. 즉, 스케줄링 오버헤드가 낮은 대신에 inflexible 유연하지 못하다.
@@ -253,7 +254,7 @@ background job은 cpu만 오랫동안 사용하는 프로세스들이고 응답�
 - `Multilevel Feedback Queue` 는 큐에 영구적으로 할당되는 멀티레벨큐 알고리즘과 다르게 큐 간의 이동이 허용된다. <br>
 Multilevel queue의 확장버전이라 생각하면 된다.
   <br><br>
-<img src="./images/CpuScheduling/img11.png" />
+<img src="./images/CpuScheduling/img11.png" width="600" />
 
 `Multilevel queue`가 우선순위에 따라 들어가는 입구가 달랐다면,<br>
 
@@ -273,21 +274,21 @@ Multilevel queue의 확장버전이라 생각하면 된다.
   <br><br>
 - 장점으로는 유연성이 뛰어나고, SJF 알고리즘처럼 turnaround 평균 시간을 줄일 수 있다. (더 짧은 프로세스가 먼저 돌게 해주므로) 또한 interactive한 프로세스가 앞에 오니까 response time이 짧아진다.
 
-### Multiple-Processor Scheduling
+## Multiple-Processor Scheduling
 
-<img src="./images/CpuScheduling/img12.png" />
+<img src="./images/CpuScheduling/img12.png" width="600" />
 
 CPU가 여러 개 있을 때의 스케줄링으로는,
 
-- #####SMP
+- <strong>SMP</strong>
 모든 CPU들이 대등한 것으로, cpu가 알아서 스케줄링을 해주는 경우
 
-- ##### Asymmetric multiprocessing
+- <strong>Asymmetric multiprocessing</strong>
 CPU가 여러 개 있는데 그 중에서 하나의 cpu가 전체적인 컨트롤을 담당하는 것.(데이터의 접근 같은 것들을 책임진다) 나머지는 따르게 된다.
 
 ### Real-Time Scheduling
 
-<img src="./images/CpuScheduling/img13.png" />
+<img src="./images/CpuScheduling/img13.png" width="600" />
 
 real time job은 어떤 deadline이 있는 job으로, 정해진 시간 내에 반드시 실행이 되야 하는 job들이다.
 
