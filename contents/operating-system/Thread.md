@@ -8,22 +8,49 @@
 - 모든 프로세스에는 한 개 이상의 스레드가 존재하여 작업을 수행합니다.
 - 프로세스에서 두 개 이상의 스레드를 가질 때, 멀티 스레드 프로세스(multi-threaded process)라고 표현합니다.
 - 스레드에서는 프로세스의 고유한 값들(상태, 포인터, 메모리 등)은 공유하고, 이외의 값(레지스터, pc값, stack)은 별도로 가집니다.
+<br><br>
+- <b>프로세스 내 CPU 수행 단위가 여러 개 있는 경우, 즉 스레드는 `CPU를 수행하는 단위`</b>
+- process를 별도로 두는 것보다 thread를 여러 개 두는 것이 가볍기에 `lightweight process` 라고도 표현한다.
+- cf. 전통적인 process는 `heavyweight process`
+
+### 주소공간과 PCB 에서의 스레드
+
+<img src="./images/Thread/p1.png">
+
+- 주소공간은 code + data + stack 으로 구성되며, process 마다 주소공간이 존재한다.
+- 동일한 일을 하는 프로세스가 여러 개 있을 때, 별도의 프로세스를 만들면 메모리 주소공간이 여러 개가 만들어지고 이는 메모리(자원) 낭비이다.
+- 메모리 주소공간을 하나만 띄어놓고 현재 각 프로세스마다 가리키는 다른 부분의 코드를 실행할 수 있게 해주면 된다.
+- 즉 process는 하나만 띄어놓고(code, data, stack), 현재 cpu가 어느 부분을 실행하고 있는가(pc가 어딜 가리키고 있는가) pc만 여러 개 두면 된다.
+<br><br>
+- => process 하나에 cpu 수행단위만 여러 개 두는 것을 `스레드` 라고 부른다.
+- `공유할 수 있는건 최대한 공유하고 (메모리 주소공간, PCB), 별도로 가지고 있는 것은 cpu 수행과 관련된 정보들(pc, register, stack)이다.`
+  <br><br>
+
+- PCB 내에 스레드 부분에서 pc와 register를 따로 관리하는 이유는 스레드가 각 cpu 수행단위(스레드)마다 현재 register에 어떤 값을 넣고, pc가 code 어느 부분을 가리키고 실행하고 있었는가를 별도로 유지해야하기 때문이다.
+- 주소공간에서 스레드마다 stack이 있는 이유는 주소공간 내의 code 영역에서 code를 실행하다가 함수호출이 되고 return이 될 때까지 그와 관련된 정보를 stack에 쌓게 된다. 그런데 cpu 수행단위가 여러 개라면 stack도 별도로 둔다.
+
 
 ***프로세스와 스레드 ?***
 - 프로세스는 운영체제로부터 자원을 할당받는 작업의 단위이고,
-- 스레드는 프로세스가 할당받은 자원을 이용하는 실행의 단위입니다. 
-
-***PCB***
-
-<img src = "./images/Thread/process_control_block.png" width="200" height="300">
-
-스레드는 pc,register를 별도로 가집니다.  
+- 스레드는 프로세스가 할당받은 자원을 이용하는 실행의 단위입니다.
 
 ## 스레드의 구성
-1. program counter
-##### 스레드는 cpu를 할당받다가 모두 실행하지 못하고 스케쥴러에 의해 선점 당합니다. 이때 스레드는 어느부분까지 수행했는지 기억해야하기 때문에 pc를 독립적으로 할당합니다.
-2. register set
-3. stack space
+
+- <b>Thread 마다 독립적으로 가지고 있는 것들</b>
+  
+    -  program counter
+        - 스레드는 cpu를 할당받다가 모두 실행하지 못하고 스케쥴러에 의해 선점 당합니다. 이때 스레드는 어느부분까지 수행했는지 기억해야하기 때문에 pc를 독립적으로 할당합니다.
+    - register set
+    - stack space
+<br><br>
+      
+- <b>Thread가 동료 Thread와 공유하는 부분 (=task)</b>
+  <br>
+  cf. 하나의 process에 thread가 여러 개 있다면, task는 한 개 있는 구조
+  <br>
+    - code section
+    - data section
+    - OS resources
 
 ## 스레드의 생명 주기
 1. Runnable(준비 상태)
@@ -34,12 +61,37 @@
 스레드가 모두 실행을 마친 완료 상태입니다. 
 4. Block(지연 상태)
 스레드가 실헹 도중 스케줄러에 의해 cpu점유권을 빼앗겨 block되어있는 상태입니다. 
+   
+### PCB
+<img src="./images/Thread/p2.png" />
 
+### Single and Multithreaded processes
 
-## 장점
-- **응답성(Responsiveness)** : 멀티 스레드 프로세스일 때 하나의 스레드가 block 상태이더라도 다른 스레드가 실행되어 빠른 응답성을 제공할 수 있습니다.
-- **자원 공유(Resources Sharing)**: 하나의 프로세스 안에 같은 일을 수행하는 스레드를 여러개 두게 되면서 자원을 절약하고, 처리율을 높일 수 있습니다.
-- **경제성(Economy)** : 프로세스 하나를 생성하고 cpu를 switching는 일보다는, thread를 생성하고 cpu를 switching하는 일이 훨씬 효율적입니다.
+<img src="./images/Thread/p3.png" />
+
+## Thread의 장점
+
+- **응답성(Responsiveness)**  
+  멀티 스레드 프로세스일 때 하나의 스레드가 block 상태이더라도 다른 스레드가 실행되어 빠른 응답성을 제공할 수 있습니다.
+  
+eg) multi-threaded web
+    if one thread is blocked (eg. network, img resources를 불러오기 위해 blocked된 상태)
+    another thread continues (eg. display, img를 불러오는 스레드가 아닌 다른 스레드가 이미 불러온 HTMl을 렌더링한다. -> user의 답답함을 줄일 수 있음, 응답성 측면 장점,  스레드를 활용한 비동기식)
+<br><br>
+- **자원 공유(Resources Sharing)**
+  n threads can share binary code, data, resources of the process.
+  별도의 프로세스를 두기보다 cpu 수행단위(스레드)를 여러 개 두면 자원을 효율적으로 쓸 수 있다.
+<br><br>
+- **경제성(Economy)** 
+  - process creating과 CPU switching(context switching)은 overhead가 상당히 크다. 
+    (cpu 관련 정보저장, cache memory flush 등 작업 수행 필요)
+  - 반면에 thread의 경우 process 내부에서 thread 간의 switching이 일어나는 것은 오버헤드가 작고 간단하다.
+    (공유하는 부분이 존재해서 문맥이 비슷하므로)
+<br><br>    
+- **Utilization of MP Architectures**
+<br>cf. MP : Multi processors
+  
+  - cpu가 여러 개 있는 경우에 해당하며 각 스레드가 다른 프로세서에서 병렬적으로 실행 가능하다.
 
   
 **Context Switching ?**
@@ -52,7 +104,10 @@
 
 
 ### 1. User-Level Thread
-- 커널 영역의 상위에서 지원되며 일반적으로 사용자 수준의 라이브러리를 통헤 구현됩니다. 커널은 프로세스 안에 스레드가 여러개 있다는 사실을 알지 못합니다.   
+- 커널 영역의 상위에서 지원되며 일반적으로 사용자 수준의 라이브러리를 통헤 구현됩니다.   
+- Process 내 스레드가 여러 개 있다는 사실을 운영체제 커널은 모르고, user program이 사용자 수준에서 스스로 여러 개의 스레드를 관리합니다. 
+- 커널이 볼 때는 일반적인 process로 보이는데 process 본인이 내부에서 cpu 수행 단위를 여러 개 두면서 관리를 하기 때문에 구현 상의 제약점이 존재할 수 있습니다.
+
 **장점**
 - 사용자가 생성하고 관리하므로 속도가 빠릅니다. 
 - 커널의 개입을 받지 않기 때문에 다른 운영체제에서 사용할 수 있습니다.   
@@ -65,7 +120,7 @@
 **장점**
 - 커널이 스레드를 관리하므로 프로세스 내 스레드들이 병행으로 수행이 가능합니다.
 - 병행으로 수행하므로 한개의 스레드가 중단되도 나머지 스레드들은 계속 수행이 가능합니다.   
-- 
+
 **단점**
 - 사용자 스레드보다 생성 및 관리 속도가 느립니다.
 
