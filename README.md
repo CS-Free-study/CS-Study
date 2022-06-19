@@ -58,6 +58,7 @@
 - [Memory](./contents/operating-system/Memory%20Management.md)
 - [GPU](./contents/operating-system/GPU.md)
 - [CPU Scheduling](./contents/operating-system/CpuScheduling.md)
+- [Virtual Memory](./contents/operating-system/Virtual_Memory.md)
 
 ---
 
