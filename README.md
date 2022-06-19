@@ -69,7 +69,7 @@
 
 ## Network
 ### [🗂 네트워크](./contents/network)
-
+- [OSI7계층](./contents/network/OSI_7.md)
 ---
 
 ## Language
