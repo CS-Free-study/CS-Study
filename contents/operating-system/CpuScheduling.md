@@ -296,8 +296,15 @@ CPU를 그때그때 스케줄링을 하기보다는 real time job들이 주어�
 
 soft real-time은 영화를 보는 것을 예시로 둘 수 있다. deadline이 존재하지만 조금 어겨도 큰 문제가 없는 시스템들이다. 다른 프로세스에 비해 우선순위만 좀 높여줘서 cpu를 먼저 받을 수 있게끔 해주면 된다.
 
+
+### 면접 질문
+1. 스케줄링 알고리즘의 평가 기준들
+2. 다단계 피드백 큐 스케줄링의 특징과 왜 그런 특징을 갖는지 (다단계 큐 스케줄링과 비교해서)
+3. 비선점형 스케줄링의 특징과, 선점형 스케줄링의 특징. 그리고 스케줄링 예시들
+
 [ref]
 https://jhnyang.tistory.com/156
+https://murphymoon.tistory.com/entry/CPU-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9COS-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8-4
 
 
 

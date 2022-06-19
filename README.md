@@ -1,11 +1,6 @@
 # CS Study
 > Since 2022.05.04
 
-## 📣 공지
-- 22.05.24 발표 이후로 기말고사 준비기간으로 종강까지 잠시 break 합니다.
-- 22.06.13 주차부터 다시 update!!
-
-
 ## 👨‍💻  스터디원
 <p>
 <a href="https://github.com/nahyeon99">
@@ -60,7 +55,9 @@
 - [Cache](./contents/operating-system/Cache.md)
 - [Interrupt](./contents/operating-system/Interrupt.md)
 - [Synchoronous and Asynchronous](./contents/operating-system/Synchoronus%20and%20Asynchronous.md)
-- [Memory](/contents/operating-system/Memory%20Management.md)
+- [Memory](./contents/operating-system/Memory%20Management.md)
+- [GPU](./contents/operating-system/GPU.md)
+- [CPU Scheduling](./contents/operating-system/CpuScheduling.md)
 
 ---
 
