@@ -187,7 +187,6 @@ page fault가 발생했을 때 교체되는 frame의 그룹에는 두 가지가 
 
 ## Thrashing Prevention
 
-
 ### 1. Working Set Model
 * 가능한 최대의 Multiprogramming Degree를 유지하면서 Thrashing을 막는 방법
 
