@@ -59,7 +59,7 @@
 - [GPU](./contents/operating-system/GPU.md)
 - [CPU Scheduling](./contents/operating-system/CpuScheduling.md)
 - [Virtual Memory](./contents/operating-system/Virtual_Memory.md)
-
+- [Process Synchronization](./contents/operating-system/Process_Synchronization.md)
 ---
 
 ## Database

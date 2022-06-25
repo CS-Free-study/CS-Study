@@ -33,7 +33,7 @@
 
 
 ### ***`만약 페이지가 메모리에 없다면?`***
-
+* page fault가 발생한다. 
 
 
 
@@ -153,7 +153,7 @@ page fault가 발생했을 때 교체되는 frame의 그룹에는 두 가지가 
 
 
 
-### Loacl Replacement
+### Local Replacement
 > 자신에게 할당된 frame 내에서만 교체하는 방법이다. 알고리즘을 프로세스마다 독자적으로 운영하는 경우 가능하다
 * 쉬고 있는 메모리를 사용할 수 없기 때문에 비교적 비효율적이다.
 
@@ -187,22 +187,12 @@ page fault가 발생했을 때 교체되는 frame의 그룹에는 두 가지가 
 
 ## Thrashing Prevention
 
-
 ### 1. Working Set Model
 * 가능한 최대의 Multiprogramming Degree를 유지하면서 Thrashing을 막는 방법
 
 > Locality of Reference(참조 지역성 원리)는 프로세스가 특정 시간 동안 일정 장소를 집중적으로 참조하는 성질을 말한다. Locality에 기반하여 프로세스가 일정 시간 동안 원활히 수행되기 위해 한꺼번에 메모리에 올라와있어야 하는 page들의 집합을 `working set`이라고 한다.
 
 working set은 working set window라는 고정된 page 참조 횟수(시간)로 구한다
-
-> **WSS_i**=working size of process **P_i**
-즉, 가장 최근 window에서 프로세스 **P_i**가 참조한 page의 총 개수라고 정의하자   
-> 이때, ∑WSS_i가 필요한 frame의 총 수가 되고 이 값이 사용가능한 총 frame보다 크다면 Thrashing이 발생할 것이다.
-
-
-따라서 운영체제가 지속적으로 working set을 지켜보면서 충분한 frame을 할당해주고 필요한 총 frame이 사용가능한 총 frame보다 크다면 프로세스 중 하나를 종료시키고 해당 프로세스에게 할당되어 있던 frame을 다른 프로세스들에게 할당해줄 수 있다.
-
-
 
 
 ### 2. PFF(Page Fault Frequency) Scheme
@@ -248,9 +238,7 @@ working set은 working set window라는 고정된 page 참조 횟수(시간)로 
 물리적 메모리 크기의 한계를 극복하기 위해 나온 기술로 프로세스를 실행할 때 필요한 부분만 메모리에 올려두고 나머지는 디스크에 두는 것이다.
 
 ### 2. 페이징이란 무엇입니까?
-세그먼테이션과 가상 메모리를 고정된 크기로 나누어 메모리(가상메모리)를 관리하는 기법을 말한다. 자세하게 말하자면 커다란 크기의 작업을 일정한 크기로 나누어 잘게 쪼개어 처리하는 것이다. 따라서 불연속적인 메모리 요청 등에 유연하게 처리할 수 있다. 
-
-세그먼테이션은 논리적 블록을 필요에 따라 다른 크기로 할당한 것이라면, 페이징은 고정된 크기로 나누는 것이다. 외부단편화는 해결하지만, 내부단편화가 발생할 수있다.
+ Paging(페이징)은 Noncontiguous Allocation 방식으로 외부 단편화의 압축 작업의 비효율성을 해결하기 위한 방법으로 메모리는 프레임(Frame), 프로세스는 페이지(Page)라 불리는 고정 크기의 블록(Block)으로 분리된다. 
 
 
 ### 3. 메모리 단편화란 무엇입니까?
@@ -275,3 +263,4 @@ Fragmentation(단편화)은 메모리에 적재되고 제거되는 일이 반복
 
 참고) 
 * KOCW 공개강의 (2014-1. 이화여자대학교 - 반효경)
+* https://rebro.kr/179
