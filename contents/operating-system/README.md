@@ -9,7 +9,14 @@
 - Thread
 - Process
 - Cache
-- Interpreter
+- Interrupt
+- Synchoronous and Asynchronous
+- Memory
+- GPU
+- CPU Scheduling
+- Virtual Memory
+- Process Synchronizaton
+
 ---
 
 
