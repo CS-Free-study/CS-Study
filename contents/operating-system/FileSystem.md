@@ -11,7 +11,7 @@
 - 일반적으로 비휘발성의 보조 기억 장치에 저장 
 - 파일은 메타(Meta) 영역과 데이터(Data) 영역으로 구성
 - operation
-> create,read,write,repostion(lseek),delete,open,close 
+> create,read,write,reposition(lseek),delete,open,close 
 
 ### 기능
 1. 사용자가 파일을 생성, 수정, 제거 
