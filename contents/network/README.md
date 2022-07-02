@@ -17,5 +17,7 @@
     - Connection Timeout / Read Timeout
     - 공인(public) IP / 사설(private) IP
 
+    - Application layer
+
 ---
 
