@@ -13,7 +13,7 @@
 - 계층 간의 상호 연관이 있는 경우 정보를 주고 받기가 어려움
 <br>
 
-<img src="./OSI7/osi-model-7-layers-1.png">
+<img src="./images/OSI7/osi-model-7-layers-1.png">
 
 ---
 
