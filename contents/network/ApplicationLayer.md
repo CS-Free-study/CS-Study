@@ -73,7 +73,7 @@ www.naver.com 은 고정된 주소라고 보면 된다. 실제로는 웹 브라�
 
 ---
 
-### Internet transport protocols services
+## Internet transport protocols services
 
 ### TCP service
 
@@ -89,6 +89,7 @@ www.naver.com 은 고정된 주소라고 보면 된다. 실제로는 웹 브라�
 - `does not provide`: reliability, flow control, congestion control, timing, throughput grarantee, security, orconnection setup
 
 -> `둘의 차이? 신뢰성이 있게 할 것인가, 아닌가`
+<br><br>
 
 <img src="./images/ApplicationLayer/protocols.png" width="700" />
 <br>
@@ -96,10 +97,12 @@ www.naver.com 은 고정된 주소라고 보면 된다. 실제로는 웹 브라�
 
 ---
 
-✅ tip:<br>
- 프로토콜을 이해한다는 것은 `프로토콜의 이름을 이해 / 그 프로토콜에 사용되는 메시지 포맷 / 그 메시지가 어떤 필드들로 구성되어 있고 / 그 필드들이 어떤 의미를 가지는지를 이해하는 것`! (especially header structure)
- <br>단, HTTP는 프로토콜의 이름을 이해하는 것으로 충분하다.
+✅ <strong>tip</strong> <br>
 
+ 프로토콜을 이해한다는 것은 `프로토콜의 이름을 이해 / 그 프로토콜에 사용되는 메시지 포맷 / 그 메시지가 어떤 필드들로 구성되어 있고 / 그 필드들이 어떤 의미를 가지는지를 이해하는 것`! (especially header structure)
+<br>단, HTTP는 프로토콜의 이름을 이해하는 것으로 충분하다.
+
+---
 
 ### Web and HTTP
 
@@ -178,8 +181,8 @@ base html 안에 image가 10개가 있다는 것이 아닌 10개의 이미지를
       <img src="./images/ApplicationLayer/request.png" width="800" />
       <br>
 
-    <small>-> 여러가지 field(줄 별로)로 구성되는데, 첫번째 줄이 가장 중요하다. <br>
-    어떤 파일을 어떤 방식으로 요청할건지에 대한 의미고, 그 뒤에는 서버에 브라우저가 특화된 페이지를 요청하기 위한 부가정보이다.</small>
+    -> 여지러가지 field(줄 별로)로 구성되는데, 첫번째 줄이 가장 중요하다. <br>
+    어떤 파일을 어떤 방식으로 요청할건지에 대한 의미고, 그 뒤에는 서버에 브라우저가 특화된 페이지를 요청하기 위한 부가정보이다.
 
 ---
 
@@ -187,7 +190,7 @@ base html 안에 image가 10개가 있다는 것이 아닌 10개의 이미지를
 
 <img src="./images/ApplicationLayer/response.png" width="800" />
 <br>
-<small>마찬가지로 header field 중 가장 첫 줄이 중요하다. 200 OK (요청한 파일 다 찾아서 전송했다는 의미)</small>
+    마찬가지로 header field 중 가장 첫 줄이 중요하다. 200 OK (요청한 파일 다 찾아서 전송했다는 의미)
 
 ---
 
@@ -212,17 +215,17 @@ base html 안에 image가 10개가 있다는 것이 아닌 10개의 이미지를
 many Web sites use cookies
 
 항상 stateless가 좋은 것은 아니다. stateless를 보안하기 위해 나온 trick이 `cookies`다.
-<br>
+<br><br>
 <img src="./images/ApplicationLayer/cookies.png" width="800" />
 <br>
 
 `client가 http://amazon.com 웹 브라우저로 접속했을 때, 해당 서버로 처음 접속한다고 가정`해보자.
 
-아마존 서버와 클라는 처음으로 관계를 맺는다고 생각하고 cookie를 1678로 set 해준다.
+아마존 서버와 클라이언트는 처음으로 관계를 맺는다고 생각하고 cookie를 1678로 set 해준다.
 
 이 때 이 정보를 http response message header에 적혀서 들어가게 될 것이다.
 
-마찬가지로 또 클라→서버로 request를 보낼 때는 http request message에 cookie 번호가 적혀서 들어가게 될 것이고, 서버에는 해당 클라에 대한 쿠키번호로 요청에 대한 정보들을 모아서 저장하게 될 것이다. 해당 정보들을 바탕으로 예를 들어 클라이언트가 cs 전공 서적들을 구매했던 유저라면 1주 뒤에 해당 클라가 또 다시 접속했을 때 cs 전공서적을 바탕으로 한 추천을 깔아줄 것이다.
+마찬가지로 또 클라이언트→서버로 request를 보낼 때는 http request message에 cookie 번호가 적혀서 들어가게 될 것이고, 서버에는 해당 클라이언트에 대한 쿠키번호로 요청에 대한 정보들을 모아서 저장하게 될 것이다. 해당 정보들을 바탕으로 예를 들어 클라이언트가 cs 전공 서적들을 구매했던 유저라면 1주 뒤에 해당 클라가 또 다시 접속했을 때 cs 전공서적을 바탕으로 한 추천을 깔아줄 것이다.
 
 → `stateless를 보안하기 위해 cookie라는 번호로, trick으로 쓸 수 있다.`
 
