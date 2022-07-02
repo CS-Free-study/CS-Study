@@ -102,7 +102,7 @@
 
 ### *2. Linked Allocation*
 - 빈 위치에 아무데나 파일을 배치하는 방법
-<img src = "./images/FileSystem/linkedAllocation.png width = 300 height = 250">
+<img src = "./images/FileSystem/linkedAllocation.png" width = 300 height = 250>
 
 **장점**
 > - external fragmentation 발생하지 않음   
