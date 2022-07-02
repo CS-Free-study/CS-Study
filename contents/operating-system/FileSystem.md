@@ -51,7 +51,7 @@
 
 <img src = "./images/FileSystem/matrix.png" width = 300 height = 200>   
 
-> 행(Access control list) : 파일 별로 누구에게 어떤 접근 권한이 있는지 표시
+> 행(Access control list) : 파일 별로 누구에게 어떤 접근 권한이 있는지 표시.  
 > 열(Capablity) : 사용자별로 자신이 접근 권한을 가진 파일 및 권한 표시   
 ***그러나 이 방식은 부가적인 오버헤드가 큼***
 
