@@ -41,7 +41,7 @@
 
 
 ### open() 
-<img src = "./images/FileSystem/open.png">
+<img src = "./images/FileSystem/open.png" width = 300 height = 250>
 
 --- 
 
@@ -49,7 +49,7 @@
 - 각 파일에 대해 누구에게 어떤 유형의 접근을 허락할 것인가?
 1. Access control Matrix
 
-<img src = "./images/FileSystem/matrix.png">   
+<img src = "./images/FileSystem/matrix.png" width = 300 height = 200>   
 
 > 행(Access control list) : 파일 별로 누구에게 어떤 접근 권한이 있는지 표시
 > 열(Capablity) : 사용자별로 자신이 접근 권한을 가진 파일 및 권한 표시   
@@ -89,7 +89,7 @@
 
 ### *1. Contiguous Allocation*
 - 하나의 파일이 연속적으로 할당되는 방법   
-<img src = "./images/FileSystem/contiguousAllocation.png">
+<img src = "./images/FileSystem/contiguousAllocation.png" width = 300 height = 250>
 
 **장점**   
 > - fast I/O : 한번의 seek/rotation으로 많은 바이트 transfer
@@ -117,7 +117,7 @@
 
 ### *3. Indexed Allocation*
 - 디렉토리에 파일의 위치 정보를 인덱스 블록으로 표시
-<img src = "./images/FileSystem/indexedAllocation.png">
+<img src = "./images/FileSystem/indexedAllocation.png" width = 300 height = 250>
 
 **장점**
 > - external fragmentation 발생하지 않음
@@ -131,7 +131,7 @@
 
 ### Unix 파일 시스템 구조 (가장 기본적인 파일 시스템 구조)
 <br>
-<img src = "./images/FileSystem/unixFilesystem.png">
+<img src = "./images/FileSystem/unixFilesystem.png" width = 300 height = 250>
    
 #### 중요 개념
 - 기본적으로 indexed 파일 
@@ -148,7 +148,7 @@
 
 ### FAT 파일 시스템 구조
 
-<img src = "./images/FileSystem/fatFilesystem.png">
+<img src = "./images/FileSystem/fatFilesystem.png" width = 300 height = 250>
 
 #### 중요 개념
 
@@ -165,7 +165,7 @@
 
 1. Bit map or bit vector
 
-<img src = "./images/FileSystem/bitmap.png">
+<img src = "./images/FileSystem/bitmap.png" width = 300 height = 250>
 
 > * 비어 있는 공간을 0으로 표시   
 > 차지하고 있는 공간을 1로 표시
@@ -176,7 +176,7 @@
 - 모든 free블록을 연결
 - 공간의 낭비가 없음
 
-<img src = "./images/FileSystem/linkedlist.png">   
+<img src = "./images/FileSystem/linkedlist.png" width = 300 height = 250>   
 
 -> 연속적인 free 블록 찾기 어려움, 각 블록을 모두 읽어야하므로 비효율적
 
@@ -216,7 +216,7 @@
 - 분산 시스템에서는 네트워크를 통해 파일이 공유될 수 있음
 - NFS에서는 분산 환경에서의 대표적인 파일 공유 방법
 
-<img src = "./images/FileSystem/vfsandnfs.png">
+<img src = "./images/FileSystem/vfsandnfs.png" width = 300 height = 250>
 
 
 
