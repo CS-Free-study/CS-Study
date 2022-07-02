@@ -252,5 +252,5 @@ http request는 web proxy를 거치게 되고, request하는 파일이 여기있
 
 [ref]
 
-![kocw 컴퓨터 네트워크](http://www.kocw.net/home/search/kemView.do?kemId=1312397)
+[kocw 컴퓨터 네트워크](http://www.kocw.net/home/search/kemView.do?kemId=1312397)
 
