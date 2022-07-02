@@ -9,7 +9,7 @@
 ### 파일 시스템의 파일이란 ?
 
 - 일반적으로 비휘발성의 보조 기억 장치에 저장 
-- 운영체제는 다양한 저장 장치를 File이라는 동일한 논리적 단위로 볼 수 있게 해줌
+- 파일은 메타(Meta) 영역과 데이터(Data) 영역으로 구성
 - operation
 > create,read,write,repostion(lseek),delete,open,close 
 
