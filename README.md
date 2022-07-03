@@ -104,6 +104,7 @@
 ## Data Structure
 ### [🗂 자료구조](./contents/data-structure)
  - [DataStructure](./contents/data-structure/Data_Sturcture.md)
+- [Sort](./contents/data-structure/Sort.md)
 ---
 
 ## Algorithm
