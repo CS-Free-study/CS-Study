@@ -158,7 +158,7 @@
 - 파일의 이름을 비롯한 모든 정보(메타데이터) 는 모두 디렉토리에 있음
 - FAT의 배열에 다음 block의 정보를 가지고 있음 
 - direct access 가능
-- Reliblity 문제 해결 가능
+- Reliablity 문제 해결 가능
 
 ---
 
@@ -204,7 +204,7 @@
 - linear list + hashing
 - Hash table 은 file name을 이 파일의 linear list의 위치로 바꿔줌 
 - search time을 없앰 
-- Collsion 발생 가능
+- Collision 발생 가능
 
 
 ---
