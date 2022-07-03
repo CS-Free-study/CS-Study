@@ -72,6 +72,8 @@
 - 다른 파티션의 파일에 접근하고 싶을 땐 어떻게 해야 할까? 
 -> 마운팅(mounting)연산 제공
 
+<img src = "./images/FileSystem/mounting.png" width = 300 height = 300>
+
 ### Acces  Methods 
 - 시스템이 제공하는 파일 정보의 접근 방식
 1. 순차 접근 
@@ -218,6 +220,19 @@
 
 <img src = "./images/FileSystem/vfsandnfs.png" width = 300 height = 250>
 
+
+### Page Cache
+- Virtual memory의 paging system에서 사용하는 page frame을 chaching의 관점에서 설명하는 용어 
+- memory-Mapped I/O를 쓰는 경우 file의 I/O에서도 page chche 사용 
+
+### Memory-Mapped I/O
+- File의 일부를 virtual memory에 mapping
+- 매핑시킨 영역에 대한 메모리 접근 연산은 파일의 입출력을 수헹하게 함 
+
+### Buffer Cache
+- 파일 시스템을 통한 I/O연산은 메모리의 특정 영역인 buffer cache 사용 
+- File 사용의 locality 활용
+-  - 
 
 
 
