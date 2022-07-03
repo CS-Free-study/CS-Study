@@ -5,7 +5,8 @@
 <img src="./images/Process_Synchronization/Process_arc.png" width="400"/>  
 
 
-### ***`critical section(임계 구역)`은 코드 상에서 race condition(경쟁 상태)이 발생할 수 있는 부분이다***
+### ***`critical section(임계 구역)`은 코드 상에서 race condition이 발생할 수 있는 부분이다***
+> race condition(경쟁 상태)란 두 개 이상의 concurrent한 프로세스(혹은 스레드)들이 하나의 자원(리소스)에 접근하기 위해 경쟁하는 상태
 
 <br>
 
