@@ -232,7 +232,8 @@
 ### Buffer Cache
 - 파일 시스템을 통한 I/O연산은 메모리의 특정 영역인 buffer cache 사용 
 - File 사용의 locality 활용
--  - 
+
+
 
 
 
