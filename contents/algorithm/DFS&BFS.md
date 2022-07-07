@@ -36,7 +36,7 @@
 
 ### **인접 행렬로 구현한 DFS**   
 
-백준
+[백준 1260번](https://www.acmicpc.net/problem/1260)
 ``` py
 import sys
 
