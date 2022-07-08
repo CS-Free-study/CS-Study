@@ -105,6 +105,7 @@
 ### [🗂 자료구조](./contents/data-structure)
  - [DataStructure](./contents/data-structure/Data_Sturcture.md)
 - [Sort](./contents/data-structure/Sort.md)
+- [NonLinear_DataStructure](./contents/data-structure/NonLinear.md)
 ---
 
 ## Algorithm
