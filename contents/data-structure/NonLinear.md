@@ -122,7 +122,7 @@
 <details>
   <summary> <b>이진 탐색 트리를 만드는 과정 </summary>
   <div markdown="0">
- <img src="./images/NonLinear/Postorder.gif" width="500"/>  
+ <img src="./images/NonLinear/MakeBST.gif" width="500"/>  
   </div>
 </details>
 
