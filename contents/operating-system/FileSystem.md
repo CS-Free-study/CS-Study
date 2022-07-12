@@ -9,9 +9,9 @@
 ### 파일 시스템의 파일이란 ?
 
 - 일반적으로 비휘발성의 보조 기억 장치에 저장 
-- 운영체제는 다양한 저장 장치를 File이라는 동일한 논리적 단위로 볼 수 있게 해줌
+- 파일은 메타(Meta) 영역과 데이터(Data) 영역으로 구성
 - operation
-> create,read,write,repostion(lseek),delete,open,close 
+> create,read,write,reposition(lseek),delete,open,close 
 
 ### 기능
 1. 사용자가 파일을 생성, 수정, 제거 
@@ -51,7 +51,7 @@
 
 <img src = "./images/FileSystem/matrix.png" width = 300 height = 200>   
 
-> 행(Access control list) : 파일 별로 누구에게 어떤 접근 권한이 있는지 표시
+> 행(Access control list) : 파일 별로 누구에게 어떤 접근 권한이 있는지 표시.  
 > 열(Capablity) : 사용자별로 자신이 접근 권한을 가진 파일 및 권한 표시   
 ***그러나 이 방식은 부가적인 오버헤드가 큼***
 
@@ -104,7 +104,7 @@
 
 ### *2. Linked Allocation*
 - 빈 위치에 아무데나 파일을 배치하는 방법
-<img src = "./images/FileSystem/linkedAllocation.png">
+<img src = "./images/FileSystem/linkedAllocation.png" width = 300 height = 250>
 
 **장점**
 > - external fragmentation 발생하지 않음   
@@ -158,7 +158,7 @@
 - 파일의 이름을 비롯한 모든 정보(메타데이터) 는 모두 디렉토리에 있음
 - FAT의 배열에 다음 block의 정보를 가지고 있음 
 - direct access 가능
-- Reliblity 문제 해결 가능
+- Reliablity 문제 해결 가능
 
 ---
 
@@ -204,7 +204,7 @@
 - linear list + hashing
 - Hash table 은 file name을 이 파일의 linear list의 위치로 바꿔줌 
 - search time을 없앰 
-- Collsion 발생 가능
+- Collision 발생 가능
 
 
 ---
