@@ -137,7 +137,7 @@ cf. SSL(Secure Socket Layer): 인터넷을 통해 전달되는 정보를 보호�
 
 <img src="./images/network/TCPvsUDP.png" width="800" />
 
-    ### TCP(Transmission Control Protocol)
+    TCP(Transmission Control Protocol)
 
         - 연결형 서비스
         - 3-way handshaking 과정을 통해 연결을 설정
@@ -156,7 +156,7 @@ cf. SSL(Secure Socket Layer): 인터넷을 통해 전달되는 정보를 보호�
 
         - 연속성보다 신뢰성이 있는 전송이 중요할 때 사용되는 프로토콜
 
-    ### UDP
+    UDP
 
         - 비연결형 서비스
         - 3-way handshaking을 사용하지 않기 때문에 `낮은 신뢰성`
@@ -254,7 +254,7 @@ cf. <br>
 
 
 [ref]
-https://dev-coco.tistory.com/61
-https://dev-coco.tistory.com/144
-이미지 출처: @coderyard
+https://dev-coco.tistory.com/61 <br>
+https://dev-coco.tistory.com/144 <br>
+이미지 출처: @coderyard <br>
 

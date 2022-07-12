@@ -13,7 +13,7 @@ hi- 서비스 구현을 각 기능별로 분리하여 문제가 생겼을 시 �
 - 계층 간의 상호 연관이 있는 경우 정보를 주고 받기가 어려움
 <br>
 
-<img src="./OSI7/osi-model-7-layers-1.png">
+<img src="./images/OSI7/osi-model-7-layers-1.png">
 
 ---
 
