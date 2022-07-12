@@ -103,7 +103,7 @@
 
 ## Data Structure
 ### [🗂 자료구조](./contents/data-structure)
- - [DataStructure](./contents/data-structure/Data_Sturcture.md)
+- [DataStructure](./contents/data-structure/Data_Sturcture.md)
 - [Sort](./contents/data-structure/Sort.md)
 - [NonLinear_DataStructure](./contents/data-structure/NonLinear.md)
 ---
@@ -111,6 +111,6 @@
 ## Algorithm
 ### [🗂 알고리즘](./contents/algorithm)
 
-- [Hash](./contents/data-structure/Hash.md)
-- [Dfs&Bfs](./contents/data-structure/DFS&BFS.md)
+- [Hash](./contents/algorithm/Hash.md)
+- [Dfs&Bfs](./contents/algorithm/DFS&BFS.md)
 ---
