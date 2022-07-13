@@ -117,6 +117,8 @@
 
 - [Hash](./contents/algorithm/Hash.md)
 - [Dfs&Bfs](./contents/algorithm/DFS&BFS.md)
+- [MST](./contents/algorithm/MST.md)
+
 ---
 
 ## Software engineering
