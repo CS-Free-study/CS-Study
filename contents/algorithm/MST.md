@@ -92,7 +92,7 @@ void set_union(int a, int b)
 
 <br>
 
-<img src="./images/MST/Prim_sudo.png" width="500"/>
+<img src="./images/MST/Kruskal_sudo.png" width="500"/>
 
 <br>
 
