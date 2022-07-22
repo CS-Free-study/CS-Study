@@ -166,7 +166,7 @@ Access token만을 사용했을 때 보안 문제를 해결하기 위해 나온 
 
 => 그래서 나온 것이 `refresh token`
 
-<img src="./images/JWT/refreshAndAccessToken.png.png" width="800" />
+<img src="./images/JWT/refreshAndAccessToken.png" width="800" />
 
 - 'access token', 'refresh token'은 모두 JWT
 - 로그인 했을 때 서버에서 Access Token, Refresh Token을 동시에 보내준다.
