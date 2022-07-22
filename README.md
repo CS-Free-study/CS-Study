@@ -118,7 +118,8 @@
 - [Hash](./contents/algorithm/Hash.md)
 - [Dfs&Bfs](./contents/algorithm/DFS&BFS.md)
 - [MST](./contents/algorithm/MST.md)
-
+- [Dijkstra](./contents/algorithm/Dijkstra.md)
+- [Floyd](./contents/algorithm/Floyd.md)
 ---
 
 ## Software engineering
