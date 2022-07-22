@@ -87,18 +87,19 @@
 - [공인(public) IP / 사설(private) IP](./contents/network/network.md)
 - [Application Layer](./contents/network/ApplicationLayer.md)
 - [API](./contents/network/API.md)
+- [JWT](./contents/network/JWT.md)
 ---
 
 ## Language
 ### [🗂 프로그래밍 언어](./contents/language)
 - [Java](./contents/language/Java/Java.md)
-    - 객체지향
-    - 객체지향의 특징 4가지
-    - 객체지향 5대 원칙(OOP SOLID)
-    - String, StringBuilder, StringBuffer 차이점
-    - 접근지정자(Access Modifier)
-    - Java 컴파일 과정
-    - JVM 구조와 Java의 동작방식
+  - 객체지향
+  - 객체지향의 특징 4가지
+  - 객체지향 5대 원칙(OOP SOLID)
+  - String, StringBuilder, StringBuffer 차이점
+  - 접근지정자(Access Modifier)
+  - Java 컴파일 과정
+  - JVM 구조와 Java의 동작방식
 - [CORS, SpringBoot에서의 CORS](./contents/language/CORS.md)
 
 ---
@@ -120,6 +121,10 @@
 - [MST](./contents/algorithm/MST.md)
 - [Dijkstra](./contents/algorithm/Dijkstra.md)
 - [Floyd](./contents/algorithm/Floyd.md)
+  <<<<<<< HEAD
+
+=======
+>>>>>>> 2d990e865266e243dcba43fe2bcfb0a114c34af5
 ---
 
 ## Software engineering
