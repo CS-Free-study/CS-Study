@@ -35,7 +35,7 @@
 > 세션과 토큰 방식은 사용자의 로그인 정보에 대한 것을 어디에 유지, 저장 하느냐에 따라 차이이다.
 ### 2. 세션 (session)
 
-<img src="./images/JWT/session.png" width="70px" />
+<img src="./images/JWT/session.png" width="800" />
 <br>
 
 - `서버`에 유지하는 방식
@@ -68,7 +68,7 @@
 
 `.` 을 기준으로 세 파트로 나뉜다.
 
-<img src="./images/JWT/jwt.png" width="70px" />
+<img src="./images/JWT/jwt.png" width="800" />
 <br>
 
 - `Header(헤더)`
@@ -100,7 +100,7 @@
     - 서명은 헤더의 'alg'에 정의된 `알고리즘`과 `secret key`를 이용해 생성하고,
     - Base64 URL-safe로 인코딩한다. (secret key를 포함해서 암호화가 되어있다.)
 
-    <img src="./images/JWT/signature.png" width="70px" />    
+    <img src="./images/JWT/signature.png" width="800" />    
 
     - 생성된 JWT는 Encoded 된 값처럼 점(.)을 구분자로 헤더, 페이로드, 시그니처로 나눠서 서로 전달하게 된다.
     - 서버는 헤더의 alg, key 속성과 공개키를 이용해 검증할 수 있다.
@@ -142,7 +142,7 @@
 
 ### ONLY "Access Token"
 
-<img src="./images/JWT/onlyAccessToken.png" width="70px" />
+<img src="./images/JWT/onlyAccessToken.png" width="800" />
 
 1. 사용자는 id, pw를 입력하고 서버에 로컬 요청을 보낸다.
 2. 서버는 비밀 키(secret key)를 통해서 서명을 하고, 공개 키(public key)로 암호화 시킨 Access Token을 발급한다.
@@ -166,7 +166,7 @@ Access token만을 사용했을 때 보안 문제를 해결하기 위해 나온 
 
 => 그래서 나온 것이 `refresh token`
 
-<img src="./images/JWT/refreshAndAccessToken.png.png" width="70px" />
+<img src="./images/JWT/refreshAndAccessToken.png.png" width="800" />
 
 - 'access token', 'refresh token'은 모두 JWT
 - 로그인 했을 때 서버에서 Access Token, Refresh Token을 동시에 보내준다.
