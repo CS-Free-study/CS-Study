@@ -131,5 +131,5 @@
 ### [🗂 소프트웨어 공학](./contents/software-engineering)
 
 - [Agile](./contents/software-engineering/Agile.md)
-- [Clean Code & Refactoring](./contents/software-engineering/Clean Code & Refactoring.md)
+- [Clean Code & Refactoring](./contents/software-engineering/Clean%20Code%20%26%20Refactoring.md)
 ---
