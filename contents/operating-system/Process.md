@@ -100,7 +100,6 @@
 > * ex) I/O request
 
 
-
 <img src="./images/Process/processScheduling.png" width="700"/>   
 
 
@@ -129,7 +128,6 @@
 > 프로세스는 통쨰로 디스크에 swap out 된다   
 > * ex) 사용자가 프로그램을 일시 정지시킨 경우 (break key)   
 > * 시스템이 여러 이유로 프로세스를 잠시 중단시킴(메모리에 너무 많은 프로세스가 올라와 있을 때)
-
 
 
 
@@ -175,9 +173,9 @@
 
 
 
-
  <img src="./images/Process/memory.png" width="400"/>  
 
 
 
-
+참고자료)
+- KOCW 공개강의 (2014-1. 이화여자대학교 - 반효경)
