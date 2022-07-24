@@ -121,10 +121,6 @@
 - [MST](./contents/algorithm/MST.md)
 - [Dijkstra](./contents/algorithm/Dijkstra.md)
 - [Floyd](./contents/algorithm/Floyd.md)
-  <<<<<<< HEAD
-
-=======
->>>>>>> 2d990e865266e243dcba43fe2bcfb0a114c34af5
 ---
 
 ## Software engineering
