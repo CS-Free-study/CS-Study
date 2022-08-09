@@ -100,7 +100,9 @@
   - 접근지정자(Access Modifier)
   - Java 컴파일 과정
   - JVM 구조와 Java의 동작방식
-- [CORS, SpringBoot에서의 CORS](./contents/language/CORS.md)
+- [Spring](./contents/language/Spring)
+  - [Spring에서의 CORS](contents/language/Spring/CORS.md)
+  - [Webserver와 WAS](contents/language/Spring/WebserverWAS.md)
 
 ---
 
