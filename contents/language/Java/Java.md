@@ -141,7 +141,7 @@ sb.append("world"); // hello world (동일한 객체 수정)
 
 cf. `String`도 불변성을 가지기 때문에 멀티스레드 환경에서 안전하다.(**thread-safe**)
 
-<img src="../images/Java/StringClasses.png" />
+<img src="images/Java/StringClasses.png" />
 
 <small>[ref] tuandevnotes.com</small>
 
@@ -177,7 +177,7 @@ cf. `String`도 불변성을 가지기 때문에 멀티스레드 환경에서 �
 
 ### JVM의 구조
 
-<img src="../images/Java/JVM.png" />
+<img src="images/Java/JVM.png" />
 
 JVM은 크게 4가지로 구성된다. 
 - Class Loader
@@ -222,7 +222,7 @@ Class Loader에 의해 메모리에 적재된 바이트 코드의 .class 파일�
   
 ### JAVA Compiler / JIT Compiler
 
-<img src="../images/Java/JITCompiler.png" />
+<img src="images/Java/JITCompiler.png" />
 
 ### Garbage Collector
 
