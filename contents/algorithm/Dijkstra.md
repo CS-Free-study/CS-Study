@@ -1,7 +1,10 @@
 # Dijkstra 최단경로 알고리즘
 
 > 하나의 시작 정점에서 다른 정점까지의 최단경로를 계산하는 문제
- * 가중치 인접행렬을 사용한다
+
+ * 가중치 인접행렬과 우선순위 큐를 사용한다
+ * 가중치가 양의 정수일 때만 사용이 가능하다
+
 
 <br>
 
@@ -65,6 +68,13 @@
 
 <br>
 
+### pseudocode
+
+<img src="./images/Dijkstra/pseudocode.png" width=600>
+
+<br>
+
+### C code
 ``` c
 #include <stdio.h>
 #include <stdlib.h>
@@ -142,6 +152,13 @@ int main(void)
   <img src="./images/Dijkstra/Dijkstra4.png" width=600>
   </div>
 </details>
+
+<br>
+
+### C++ Code
+
+<br>
+
 
 
 
