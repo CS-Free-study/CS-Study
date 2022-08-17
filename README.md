@@ -113,6 +113,7 @@
 - [NonLinear_DataStructure](./contents/data-structure/NonLinear.md)
 - [Graph](./contents/data-structure/Graph.md)
 - [Trie](./contents/data-structure/Trie.md)
+- [Priority Queue](./contents/data-structure/PrQue.md)
 ---
 
 ## Algorithm
