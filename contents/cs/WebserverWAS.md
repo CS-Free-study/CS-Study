@@ -22,13 +22,13 @@
 
 ### 정적 컨텐츠
 
-<img src="images/StaticWebpage.png" width="800" />
+<img src="./images/WebserverWAS/StaticWebpage.png" width="800" />
 
 > 모든 클라이언트에게 동일한 웹페이지를 보여지게 하는 것을 의미
 
 ### 동적 컨텐츠
 
-<img src="images/DynamicWebpage.png" width="800" />
+<img src="./images/WebserverWAS/DynamicWebpage.png" width="800" />
 
 > 사용자에 따라 웹페이지가 달리 구성되는 것을 의미
 
@@ -72,8 +72,8 @@ WAS가 웹 서버로부터 처리 요청을 받으면, 프로그램의 실행결
 
 <small>Client - 웹 서버 - WAS 의 구조</small>
 
-<img src="images/WAS1.png" width="800" /> <br><br>
-<img src="images/WAS2.png" width="800" />
+<img src="./images/WebserverWAS/WAS1.png" width="800" /> <br><br>
+<img src="./images/WebserverWAS/WAS2.png" width="800" />
 
 ---
 
@@ -91,7 +91,7 @@ WAS가 웹 서버로부터 처리 요청을 받으면, 프로그램의 실행결
 
 - CGI를 구동하는 대표적인 방법은 Apache HTTPd
 
-<img src="images/CGI.png" width="800" />
+<img src="./images/WebserverWAS/CGI.png" width="800" />
 
 ---
 
@@ -111,7 +111,7 @@ WAS가 웹 서버로부터 처리 요청을 받으면, 프로그램의 실행결
 CGI 규격을 맞출 수 있는 언어는 PHP, Perl, Python 등이 있고 `Java는 CGI 규격을 바로 맞출 수 없다`.<br>
 그러나 많은 서버들이 Java로 구성되어 있고, Java 또한 이러한 CGI 규격을 맞추기 위한 기술을 가지고 있는데 이가 바로 `서블릿` 이다.
 
-<img src="images/Servlet.png" width="800" />
+<img src="./images/WebserverWAS/Servlet.png" width="800" />
 
 - 서블릿 컨테이너(Servlet Container)는 서블릿을 관리해주는 컨테이너
 
