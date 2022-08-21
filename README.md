@@ -26,12 +26,10 @@
 
 ## 📝 규칙
 - Pull Request 방식을 사용합니다.
-- branch는 master만 사용합니다.
+- branch는 main만 사용합니다.
 - 매주 각자 공부가 필요한 주제를 선정 후 학습합니다.
 - 모든 문서는 마크다운 형식을 이용하여 작성합니다.
-- 정리한 문서 하단에는 해당 내용과 관련된 면접 질문을 추가합니다.
-- Repo에 공유는 일요일까지 완료합니다.
-- 매주 스터디 발표를 합니다.
+- Repo에 공유는 매주 스터디 발표 전까지 완료합니다.
 
 ---
 
@@ -43,6 +41,7 @@
 - [Language](#language)
 - [Data Structure](#data-structure)
 - [Algorithm](#algorithm)
+- [CS](#cs)
 
 ---
 ## Operating System
