@@ -1,4 +1,4 @@
-# JSON과 XML
+# JSON VS XML
 
 ## JSON이란?
 
