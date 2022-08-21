@@ -101,8 +101,8 @@
   - Java 컴파일 과정
   - JVM 구조와 Java의 동작방식
 - [Spring](./contents/language/Spring)
-  - [Spring에서의 CORS](contents/language/Spring/CORS.md)
-  - [Webserver와 WAS](contents/language/Spring/WebserverWAS.md)
+  - [Spring에서의 CORS](contents/cs/CORS.md)
+  - [Webserver와 WAS](contents/cs/WebserverWAS.md)
 
 ---
 
@@ -131,4 +131,12 @@
 
 - [Agile](./contents/software-engineering/Agile.md)
 - [Clean Code & Refactoring](./contents/software-engineering/Clean%20Code%20%26%20Refactoring.md)
+---
+
+## CS
+### [🗂 그 외 CS](./contents/cs)
+
+- [CORS](./contents/cs/CORS.md)
+- [웹 서버와 WAS](./contents/cs/WebserverWAS.md)
+- [Framework vs Library](./contents/cs/Framework%20VS%20Library.md)
 ---
