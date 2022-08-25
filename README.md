@@ -26,12 +26,10 @@
 
 ## 📝 규칙
 - Pull Request 방식을 사용합니다.
-- branch는 master만 사용합니다.
+- branch는 main만 사용합니다.
 - 매주 각자 공부가 필요한 주제를 선정 후 학습합니다.
 - 모든 문서는 마크다운 형식을 이용하여 작성합니다.
-- 정리한 문서 하단에는 해당 내용과 관련된 면접 질문을 추가합니다.
-- Repo에 공유는 일요일까지 완료합니다.
-- 매주 스터디 발표를 합니다.
+- Repo에 공유는 매주 스터디 발표 전까지 완료합니다.
 
 ---
 
@@ -43,6 +41,7 @@
 - [Language](#language)
 - [Data Structure](#data-structure)
 - [Algorithm](#algorithm)
+- [CS](#cs)
 
 ---
 ## Operating System
@@ -100,9 +99,6 @@
   - 접근지정자(Access Modifier)
   - Java 컴파일 과정
   - JVM 구조와 Java의 동작방식
-- [Spring](./contents/language/Spring)
-  - [Spring에서의 CORS](contents/language/Spring/CORS.md)
-  - [Webserver와 WAS](contents/language/Spring/WebserverWAS.md)
 
 ---
 
@@ -113,6 +109,7 @@
 - [NonLinear_DataStructure](./contents/data-structure/NonLinear.md)
 - [Graph](./contents/data-structure/Graph.md)
 - [Trie](./contents/data-structure/Trie.md)
+- [Priority Queue](./contents/data-structure/PrQue.md)
 ---
 
 ## Algorithm
@@ -130,4 +127,13 @@
 
 - [Agile](./contents/software-engineering/Agile.md)
 - [Clean Code & Refactoring](./contents/software-engineering/Clean%20Code%20%26%20Refactoring.md)
+- [CI/CD](./contents/software-engineering/CICD.md)
+---
+
+## CS
+### [🗂 그 외 CS](./contents/cs)
+
+- [CORS](./contents/cs/CORS.md)
+- [웹 서버와 WAS](./contents/cs/WebserverWAS.md)
+- [Framework vs Library](./contents/cs/Framework%20VS%20Library.md)
 ---
