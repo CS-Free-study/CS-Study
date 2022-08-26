@@ -121,6 +121,7 @@
 - [MST](./contents/algorithm/MST.md)
 - [Dijkstra](./contents/algorithm/Dijkstra.md)
 - [Floyd](./contents/algorithm/Floyd.md)
+- [A*](./contents/algorithm/Astar.md)
 ---
 
 ## Software engineering
