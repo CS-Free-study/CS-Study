@@ -66,6 +66,7 @@
 ### [🗂 데이터베이스](./contents/database)
 - [DataBase&SQL](./contents/database/database%26sql.md)
 - [Normalization(정규화)](./contents/database/normalization.md)
+- [Database Replication](./contents/database/Replication.md)
 ---
 
 ## Network
@@ -90,6 +91,7 @@
 - [JWT](./contents/network/JWT.md)
 - [SSL/TLS](./contents/network/SSL.md)
 - [TCP/IP](./contents/network/TCP_IP.md)
+- [Session](./contents/database/OnlineSession.md)
 ---
 
 ## Language
