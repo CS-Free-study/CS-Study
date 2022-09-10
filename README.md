@@ -67,6 +67,7 @@
 - [DB용어정리](./contents/database/word.md)
 - [DataBase&SQL](./contents/database/database%26sql.md)
 - [Normalization(정규화)](./contents/database/normalization.md)
+- [Database Replication](./contents/database/Replication.md)
 ---
 
 ## Network
@@ -90,6 +91,8 @@
 - [API](./contents/network/API.md)
 - [JWT](./contents/network/JWT.md)
 - [SSL/TLS](./contents/network/SSL.md)
+- [TCP/IP](./contents/network/TCP_IP.md)
+- [Session](./contents/database/OnlineSession.md)
 ---
 
 ## Language
