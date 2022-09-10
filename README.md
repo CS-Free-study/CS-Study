@@ -64,6 +64,7 @@
 
 ## Database
 ### [🗂 데이터베이스](./contents/database)
+- [DB용어정리](./contents/database/word.md)
 - [DataBase&SQL](./contents/database/database%26sql.md)
 - [Normalization(정규화)](./contents/database/normalization.md)
 ---
