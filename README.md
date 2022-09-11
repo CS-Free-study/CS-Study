@@ -93,7 +93,7 @@
 - [JWT](./contents/network/JWT.md)
 - [SSL/TLS](./contents/network/SSL.md)
 - [TCP/IP](./contents/network/TCP_IP.md)
-- [Session](./contents/database/OnlineSession.md)
+- [Cookie & Session](./contents/database/OnlineSession.md)
 ---
 
 ## Language
