@@ -128,6 +128,7 @@
 - [Dijkstra](./contents/algorithm/Dijkstra.md)
 - [Floyd](./contents/algorithm/Floyd.md)
 - [A*](./contents/algorithm/Astar.md)
+- [Recurrence relation](./contents/algorithm/Recurrence%20relation.md)
 ---
 
 ## Software engineering
