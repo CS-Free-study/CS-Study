@@ -19,7 +19,7 @@
 ### 2. 표(Table)
 <br>
 
-<img src = './word/table.jpeg'>
+<img src = './images/word/table.jpeg'>
 
 <br>
 
@@ -42,7 +42,7 @@
 키(Key)는 데이터베이스에서 조건에 맞는 튜플을 찾거나 정렬할 때 다른 튜플들과 구분할 수 있는 기준이 되는 일종의 속성(Attribute)입니다.
 
 
-<img src = './word/key.png'>
+<img src = './images/word/key.png'>
 
 
 1. 후보키(Candidate Key) : 릴레이션을 구성하는 속성들 중에서 튜플을 유일하게 식별하기 위해 사용되는 속성들의 부분집합이며, 언제든 기본키로 사용할 수 있습니다. 모든 릴레이션에는 하나 이상의 후보키가 존재하며, 유일성과 최소성을 만족시켜야 합니다.
