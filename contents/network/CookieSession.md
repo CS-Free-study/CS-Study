@@ -33,7 +33,7 @@
 <br>
 
 ### 쿠키의 동작 방식
-<img src = "./images/Session/Cookie.png" width = 600>
+<img src = "./images/CookieSession/Cookie.png" width = 600>
 
  * 클라이언트가 페이지를 요청한다
  * 서버에서 쿠키를 생성한다
@@ -61,7 +61,7 @@
 <br>
 
 ### 세션의 동작 방식
-<img src = "./images/Session/Session.png" width = 600>
+<img src = "./images/CookieSession/Session.png" width = 600>
 
 > 출처: https://tansfil.tistory.com/58
 
@@ -123,7 +123,7 @@
 
 
 ### JWT의 동작 방식
-<img src = "./images/Session/JWT.png" width = 600>
+<img src = "./images/CookieSession/JWT.png" width = 600>
 
 > 출처: https://tansfil.tistory.com/58
 
