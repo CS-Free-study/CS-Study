@@ -69,6 +69,7 @@
 - [Normalization(정규화)](./contents/database/normalization.md)
 - [Database Replication](./contents/database/Replication.md)
 - [Join](./contents/database/join.md)
+- [Transaction](./contents/database/Transaction.md)
 ---
 
 ## Network
