@@ -41,7 +41,6 @@
 - [Language](#language)
 - [Data Structure](#data-structure)
 - [Algorithm](#algorithm)
-- [Software engineering](#software-engineering)
 - [CS](#cs)
 
 ---
@@ -143,7 +142,6 @@
 - [Clean Code & Refactoring](./contents/software-engineering/Clean%20Code%20%26%20Refactoring.md)
 - [CI/CD](./contents/software-engineering/CICD.md)
 - [SOLID](./contents/software-engineering/SOLID.md)
-- [DDD 도메인 주도 설계 패턴](./contents/software-engineering/DDD.md)
 ---
 
 ## CS
