@@ -41,6 +41,7 @@
 - [Language](#language)
 - [Data Structure](#data-structure)
 - [Algorithm](#algorithm)
+- [Software engineering](#software-engineering)
 - [CS](#cs)
 
 ---
@@ -69,6 +70,7 @@
 - [Normalization(정규화)](./contents/database/normalization.md)
 - [Database Replication](./contents/database/Replication.md)
 - [Join](./contents/database/join.md)
+- [Transaction](./contents/database/Transaction.md)
 ---
 
 ## Network
@@ -93,7 +95,9 @@
 - [JWT](./contents/network/JWT.md)
 - [SSL/TLS](./contents/network/SSL.md)
 - [TCP/IP](./contents/network/TCP_IP.md)
-- [Cookie & Session](./contents/database/OnlineSession.md)
+- [Cookie & Session](./contents/network/CookieSession.md)
+- [VM과 Container / Docker, Kubernetes 간단 개념](./contents/network/Virtualization.md)
+
 ---
 
 ## Language
@@ -129,6 +133,7 @@
 - [Dijkstra](./contents/algorithm/Dijkstra.md)
 - [Floyd](./contents/algorithm/Floyd.md)
 - [A*](./contents/algorithm/Astar.md)
+- [Recurrence relation](./contents/algorithm/Recurrence%20relation.md)
 ---
 
 ## Software engineering
@@ -137,6 +142,8 @@
 - [Agile](./contents/software-engineering/Agile.md)
 - [Clean Code & Refactoring](./contents/software-engineering/Clean%20Code%20%26%20Refactoring.md)
 - [CI/CD](./contents/software-engineering/CICD.md)
+- [SOLID](./contents/software-engineering/SOLID.md)
+- [DDD 도메인 주도 설계 패턴](./contents/software-engineering/DDD.md)
 ---
 
 ## CS
