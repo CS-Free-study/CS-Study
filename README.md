@@ -71,6 +71,7 @@
 - [Database Replication](./contents/database/Replication.md)
 - [Join](./contents/database/join.md)
 - [Transaction](./contents/database/Transaction.md)
+- [Index](./contents/database/index.md)
 ---
 
 ## Network

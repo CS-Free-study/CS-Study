@@ -7,6 +7,7 @@
 - Normalization(정규화)
 - Join(조인)
 - Transaction(트랜잭션)
+- Index(인덱스)
 ---
 
 <!-- 예시:  ### API -->
