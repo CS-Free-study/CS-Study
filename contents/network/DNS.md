@@ -1,4 +1,6 @@
-# DNS Round Robin
+# DNS
+
+<br>
 
 ## DNS(Domain Name System) 란?
 > 도메인 이름(e.g. www.naver.com)을 IP 주소로 변환하는 시스템 
