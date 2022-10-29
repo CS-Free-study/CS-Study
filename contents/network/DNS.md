@@ -37,7 +37,7 @@
  - DNS와 클라이언트간의 상호작용을 담당한다
  - 클라이언트의 DNS 요청을 네임 서버로 전달하고 찾은 정보를 클라이언트에게 제공하는 기능을 수행한다
  - 어떤 네임 서버에 요청을 보내야하는지, 캐시에 저장되어 있는지 확인하고 응답한다
- - 대표적으로 통신 3사(KT/LG/SKT)와 같은 ISP와 구글, 클라우드 플레어 같은 Public DNS가 있다
+ - 대표적으로 ISP(국내 통신 3사 KT/LG/SKT)와 구글, 클라우드 플레어 같은 Public DNS가 있다
  - Resolver = Recursive DNS Server = Local Server(of ISP) = Recursor 라고 할 수 있다
 
 <br>
@@ -49,7 +49,9 @@
 
 <br>
 
-<img src = "./images/DNS/DNS.png" width = 600>
+### DNS 동작과정
+
+<img src = "./images/DNS/DNS.png" width = 700>
 
 - [이미지 출처](https://hanamon.kr/dns%EB%9E%80-%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%84%A4%EC%9E%84-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%85%90%EB%B6%80%ED%84%B0-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D%EA%B9%8C%EC%A7%80/)
 
