@@ -99,6 +99,7 @@
 - [TCP/IP](./contents/network/TCP_IP.md)
 - [Cookie & Session](./contents/network/CookieSession.md)
 - [VM과 Container / Docker, Kubernetes 간단 개념](./contents/network/Virtualization.md)
+- [Domain Name System](./contents/network/DNS.md)
 
 ---
 
