@@ -61,6 +61,7 @@
 - [Virtual Memory](./contents/operating-system/Virtual_Memory.md)
 - [Process Synchronization](./contents/operating-system/Process_Synchronization.md)
 - [File System](./contents/operating-system/FileSystem.md)
+- [Kerenl](./contents/operating-system/Kernel.md)
 ---
 
 ## Database
@@ -98,6 +99,7 @@
 - [TCP/IP](./contents/network/TCP_IP.md)
 - [Cookie & Session](./contents/network/CookieSession.md)
 - [VM과 Container / Docker, Kubernetes 간단 개념](./contents/network/Virtualization.md)
+- [Domain Name System](./contents/network/DNS.md)
 
 ---
 
