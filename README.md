@@ -18,12 +18,6 @@
 <a href="https://github.com/mummhy0811">
   <img src="https://avatars.githubusercontent.com/u/76941500?v=4" width="100">
 </a>
-<a href="https://github.com/altpfwlzh">
-  <img src="https://avatars.githubusercontent.com/u/103296628?v=4" width="100">
-</a>
-<a href="https://github.com/juhanparkk">
-  <img src="https://avatars.githubusercontent.com/u/124042877?v=4" width="100">
-</a>
 </p>
 
 ---
